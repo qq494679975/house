@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="eamil" extends="default">
+		<action name="eamilcrud" class="com.softxm.hs.action.EmailAction">
+			<result name="readuser">/main/emailjsp/writeEMail.jsp</result>
+			<result name="readDD">/main/emailjsp/selectUser.jsp</result>
+			<result name="outboxlist">/main/emailjsp/sendemail/sendEMailList.jsp</result>
+			<result name="seeEmail">/main/emailjsp/sendemail/seeEMail.jsp</result>
+			<result name="queryDraftEMail">/main/emailjsp/draftemail/draftEMailList.jsp</result>
+			<result name="draftESeeEmail">/main/emailjsp/draftemail/draftEwriteEMail.jsp</result>
+			<result name="receieveEMail">/main/emailjsp/getemail/getEMailList.jsp</result>
+			<result name="seeGetEmail">/main/emailjsp/getemail/seeGetEMail.jsp</result>
+			<result name="queryGCEMail">/main/emailjsp/gcemail/gcEMailList.jsp</result>
+			<result name="seeGCEmail">/main/emailjsp/gcemail/seeGCEMail.jsp</result>
+			<result name="backgetemail">/main/emailjsp/getemail/backEMail.jsp</result>
+			<result name="trangetemail">/main/emailjsp/getemail/transpondEMail.jsp</result>
+			<result name="downattach" type="stream">
+				<!-- 设置浏览器会弹出另存为窗口 -->
+					 <param name="contentType">application/octet-stream</param>
+					 <!-- 设置缓存区大小 -->
+					 <param name="bufferSize">1024</param>
+					 <!-- 设置获取下载需要的文件流的方法名 -->
+					 <param name="inputName">file</param>
+					 <!-- 设置浏览器另存为文件的默认文件名 -->
+					 <param name="contentDisposition">attachment;filename="${fileName}"</param> 
+			</result>
+		</action>
+	</package>
+</struts>    

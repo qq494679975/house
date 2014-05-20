@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.objectFactory.spring.autoWire" value="type"></constant>
+	<constant name="struts.devMode" value="true"></constant>
+	<constant name="struts.ui.theme" value="simple"></constant>
+	<!-- 设置一次请求最多允许上传的总的文件的大小 -->
+	<constant name="struts.multipart.maxSize" value="157286400"></constant>
+	
+	<!-- 定义拦截器必须在package中 -->
+	<package name="default" extends="json-default">
+		<!-- 定义拦截器 -->
+		<interceptors>
+			<interceptor name="loginInteceptor"
+				class="com.softxm.hs.interceptor.Login_SecurityInterceptor"></interceptor>
+			<!-- 定义拦截器栈 -->
+			<interceptor-stack name="oaStack">
+				<interceptor-ref name="loginInteceptor"></interceptor-ref>
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<!-- 定义默认的拦截器栈 -->
+		<default-interceptor-ref name="oaStack"></default-interceptor-ref>
+		<!-- 配置全局的result：该包或者该包的子包下的所有action均可使用这个result -->
+		<global-results>
+			<!-- 没登陆成功返回 login -->
+			<result name="login" type="redirect">/login.jsp</result>
+			<result name="center">/common/message.jsp</result>
+			<result name="exception">/common/exception.jsp</result>
+			<result name="input">/common/input.jsp</result>
+		</global-results>
+		<!-- 定义全局异常处理页 -->
+		<global-exception-mappings>
+			<exception-mapping result="exception" exception="java.lang.Exception"></exception-mapping>
+		</global-exception-mappings>
+	</package>
+	<include file="strutsconfig/struts-*.xml"></include>
+</struts>    

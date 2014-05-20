@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="dictionary" extends="default">
+		<action name="dictionarycrud" class="com.softxm.hs.action.DictionaryAction">
+			<result name="dictionaryList">/main/dictionaryjsp/dictionarylist.jsp</result>
+			<result name="toAddPage">/main/dictionaryjsp/add_dic.jsp</result>
+			<result name="toUpdatePage">/main/dictionaryjsp/update_dic.jsp</result>
+			<result name="dicIsOnly" type="json">
+				<param name="root">dicflag</param>
+			</result>
+		</action>
+	</package>
+</struts>    

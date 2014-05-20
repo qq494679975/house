@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="userpage" extends="default">
+		<action name="systemcrud" class="com.softxm.hs.action.UserAction">
+			<result name="out" type="redirect">/login.jsp</result>
+			<result name="userlist">/main/systemjsp/systemUserList.jsp</result>
+			<result name="toAddPage">/main/systemjsp/addUser.jsp</result>
+			<result name="toUpdatePage">/main/systemjsp/updateUser.jsp</result>
+			<result name="readTip" type="json">
+				<param name="includeProperties">noticenum,emailnum</param>
+			</result>
+			<result name="toTipPage" >/main/usertip/usertip.jsp</result>
+			<result name="updateUserTip">/main/usertip/tipresult.jsp</result>
+			<result name="getuser">main/userjsp/showUser.jsp</result>
+			<result name ="userislive" type="json">
+				<param name="root">userislive</param>
+			</result>
+		</action>
+	</package>
+	
+	
+</struts>    

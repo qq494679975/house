@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="noticePage" extends="default">
+		<action name="noticecrud" class="com.softxm.hs.action.NoticeAction">
+			<result name="noticelist">/main/noticejsp/noticeList.jsp</result>
+			<result name="toUpdatePage">/main/noticejsp/updatenotice.jsp</result>
+			<result name="downattach" type="stream">
+				<!-- 设置浏览器会弹出另存为窗口 -->
+				<param name="contentType">application/octet-stream</param>
+				<!-- 设置缓存区大小 -->
+				<param name="bufferSize">1024</param>
+				<!-- 设置获取下载需要的文件流的方法名 -->
+				<param name="inputName">file</param>
+				<!-- 设置浏览器另存为文件的默认文件名 -->
+				<param name="contentDisposition">attachment;filename="${fileName}"</param>
+			</result>
+			<result name="showNotice">/main/noticejsp/seeNotice.jsp</result>
+			<result name="personNoticeList">/main/usernoticejsp/usernotice.jsp</result>
+			<result name="seeNoticeP">/main/usernoticejsp/seePersonNotice.jsp</result>
+		</action>
+	</package>
+</struts>    

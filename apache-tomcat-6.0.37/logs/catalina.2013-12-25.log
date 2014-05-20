@@ -1,0 +1,260 @@
+2013-12-25 10:18:37 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:18:40 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:18:40 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 6880 ms
+2013-12-25 10:18:40 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:18:40 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:20:00 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:20:00 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:20:00 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:20:00 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:20:00 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/16  config=null
+2013-12-25 10:20:00 org.apache.catalina.startup.Catalina start
+信息: Server startup in 80491 ms
+2013-12-25 10:37:05 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:37:05 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:37:05 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 442 ms
+2013-12-25 10:37:05 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:37:05 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:38:28 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:38:28 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:38:28 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 374 ms
+2013-12-25 10:38:28 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:38:28 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:38:28 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:38:29 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:38:29 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:38:29 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:38:29 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/17  config=null
+2013-12-25 10:38:29 org.apache.catalina.startup.Catalina start
+信息: Server startup in 363 ms
+2013-12-25 10:43:45 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:43:45 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:43:45 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 448 ms
+2013-12-25 10:43:45 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:43:45 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:43:45 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:43:46 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:43:46 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:43:46 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:43:46 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/18  config=null
+2013-12-25 10:43:46 org.apache.catalina.startup.Catalina start
+信息: Server startup in 404 ms
+2013-12-25 10:45:00 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:45:00 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:45:00 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 375 ms
+2013-12-25 10:45:00 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:45:00 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:45:00 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:45:00 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:45:00 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:45:00 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:45:00 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/20  config=null
+2013-12-25 10:45:00 org.apache.catalina.startup.Catalina start
+信息: Server startup in 363 ms
+2013-12-25 10:45:15 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:45:15 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:45:15 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 413 ms
+2013-12-25 10:45:15 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:45:15 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:45:15 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:45:15 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:45:15 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:45:15 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:45:15 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/10  config=null
+2013-12-25 10:45:15 org.apache.catalina.startup.Catalina start
+信息: Server startup in 380 ms
+2013-12-25 10:50:19 org.apache.catalina.core.AprLifecycleListener init
+严重: An incompatible version 1.1.10 of the APR based Apache Tomcat Native library is installed, while Tomcat requires version 1.1.17 
+2013-12-25 10:50:19 org.apache.catalina.core.AprLifecycleListener init
+严重: An incompatible version 1.1.10 of the APR based Apache Tomcat Native library is installed, while Tomcat requires version 1.1.17 
+2013-12-25 10:50:19 org.apache.catalina.core.AprLifecycleListener init
+严重: An incompatible version 1.1.10 of the APR based Apache Tomcat Native library is installed, while Tomcat requires version 1.1.17 
+2013-12-25 10:50:19 org.apache.catalina.core.AprLifecycleListener init
+严重: An incompatible version 1.1.10 of the APR based Apache Tomcat Native library is installed, while Tomcat requires version 1.1.17 
+2013-12-25 10:50:19 org.apache.catalina.core.AprLifecycleListener init
+严重: An incompatible version 1.1.10 of the APR based Apache Tomcat Native library is installed, while Tomcat requires version 1.1.17 
+2013-12-25 10:50:19 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:50:19 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 518 ms
+2013-12-25 10:50:19 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:50:19 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:50:19 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:50:19 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:50:19 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:50:19 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:50:19 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/22  config=null
+2013-12-25 10:50:19 org.apache.catalina.startup.Catalina start
+信息: Server startup in 400 ms
+2013-12-25 10:51:34 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin
+2013-12-25 10:51:34 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:51:34 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 405 ms
+2013-12-25 10:51:34 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:51:34 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:51:34 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:51:34 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:51:35 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:51:35 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:51:35 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/20  config=null
+2013-12-25 10:51:35 org.apache.catalina.startup.Catalina start
+信息: Server startup in 357 ms
+2013-12-25 10:53:55 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.6.0_43\bin;
+2013-12-25 10:53:55 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:53:55 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 376 ms
+2013-12-25 10:53:55 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:53:55 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:53:55 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:53:55 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:53:55 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:53:55 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:53:55 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/20  config=null
+2013-12-25 10:53:55 org.apache.catalina.startup.Catalina start
+信息: Server startup in 361 ms
+2013-12-25 10:55:23 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;x:\tomcat\bin;
+2013-12-25 10:55:23 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 10:55:23 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 434 ms
+2013-12-25 10:55:23 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 10:55:23 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 10:55:23 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 10:55:23 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 10:55:23 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 10:55:23 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 10:55:23 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/20  config=null
+2013-12-25 10:55:23 org.apache.catalina.startup.Catalina start
+信息: Server startup in 413 ms
+2013-12-25 11:02:00 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;x:\tomcat\bin;
+2013-12-25 11:02:01 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 11:02:01 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 409 ms
+2013-12-25 11:02:01 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 11:02:01 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 11:02:01 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 11:02:01 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 11:02:01 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 11:02:01 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 11:02:01 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/18  config=null
+2013-12-25 11:02:01 org.apache.catalina.startup.Catalina start
+信息: Server startup in 370 ms
+2013-12-25 11:02:47 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common;F:\mysql\bin;E:\java需要的包\cxf\apache-cxf-2.7.0\apache-cxf-2.7.0\bin;C:\Program Files (x86)\Subversion\bin;C:\Program Files\TortoiseSVN\bin;x:\tomcat\bin;
+2013-12-25 11:02:47 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-12-25 11:02:47 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 418 ms
+2013-12-25 11:02:47 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-12-25 11:02:47 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-12-25 11:02:47 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-12-25 11:02:47 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-12-25 11:02:47 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-12-25 11:02:47 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8010
+2013-12-25 11:02:47 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/20  config=null
+2013-12-25 11:02:47 org.apache.catalina.startup.Catalina start
+信息: Server startup in 390 ms

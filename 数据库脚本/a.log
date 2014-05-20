@@ -1,0 +1,16 @@
+原值    1: drop user &1 cascade
+新值    1: drop user jn130233 cascade
+
+用户已删除。
+
+原值    1: create user &1 identified by &2
+新值    1: create user jn130233 identified by jn130233
+
+用户已创建。
+
+原值    1: grant connect,resource to &1
+新值    1: grant connect,resource to jn130233
+
+授权成功。
+
+已连接。

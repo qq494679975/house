@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.softxm.hs.model.Ttip" table="TTIP" schema="HOUSE">
+		<id name="tid" type="java.lang.Long">
+			<column name="UIID" precision="12" scale="0" />
+			<generator class="foreign">
+				<param name="property">tuserinfo</param>
+			</generator>
+		</id>
+		<property name="tshow" type="java.lang.String">
+			<column name="TSHOW" length="1" />
+		</property>
+		<property name="ttime" type="java.lang.Integer">
+			<column name="TTIME" precision="5" scale="0" />
+		</property>
+		<property name="tnorice" type="java.lang.String" >
+			<column name="TNORICE" length="1" />
+		</property>
+		<property name="temail" type="java.lang.String" >
+			<column name="TEMAIL" length="1" />
+		</property>
+		<!-- constrained：表示一个表的主键是否参考另一个表的主键 -->
+        <one-to-one name="tuserinfo" class="com.softxm.hs.model.Tuserinfo" constrained="true"></one-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* 代码整理：懒人之家 lanrenzhijia.com */
+ * {
+	margin:0;
+	padding:0;
+}
+body {
+	background:#E4FFCF url(../images/wood.jpg) no-repeat top center;
+	font-family:Futura, "Century Gothic", AppleGothic, sans-serif;
+	overflow:hidden;
+}
+h1 {
+	color:#fff;
+	margin:40px 0px 20px 40px;
+	text-shadow:1px 1px 1px #555;
+	font-weight:normal;
+}
+a.back {
+	position:absolute;
+	bottom:5px;
+	right:5px;
+}
+.reference {
+	position:absolute;
+	bottom:5px;
+	left:5px;
+}
+.reference p a, a.back {
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #fff;
+	color:#666;
+	text-decoration:none;
+	font-size:16px;
+	font-weight:bold;
+}
+.reference p a:hover, a.back:hover {
+	color:#000;
+}
+.littleBoxes {
+	width:350px;
+	height:350px;
+	margin:0 auto;
+	position:relative;
+}
+.littleBoxes > div {
+	position:absolute;
+	width:90px;
+	height:90px;
+	text-align:center;
+	border:2px solid white;
+	overflow:hidden;
+	background-color:#f7f7f7;
+	-moz-box-shadow:0px 0px 3px #555;
+	-webkit-box-shadow:0px 0px 3px #555;
+	box-shadow:0px 0px 3px #555;
+	background-position:center center;
+	z-index:999;
+}
+.littleBoxes div a {
+	text-transform:uppercase;
+	font-size: 18px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	display:block;
+	line-height:90px;
+	text-decoration:none;
+	color:#fff;
+	background:#91EF4A url(../images/bgItem.png) repeat-x top left;
+	outline:none;
+	text-shadow:1px 1px 1px #888;
+	-moz-box-shadow:1px 1px 3px #777;
+	-webkit-box-shadow:1px 1px 3px #777;
+	box-shadow:1px 1px 3px #777;
+}
+.littleBoxes div.boxcontent {
+	width:334px;
+	height:246px;
+	text-align:left;
+	padding:10px;
+	font-size:16px;
+	background-color:#f0f0f0;
+	border:2px solid #fff;
+	margin:10px 0px 0px 10px;
+	text-shadow:1px 1px 1px #fff;
+	-moz-box-shadow:1px 1px 3px #777;
+	-webkit-box-shadow:1px 1px 3px #777;
+	box-shadow:1px 1px 3px #777;
+	opacity:0.8;
+	display:none;
+}
+.bg1, .bg2, .bg3, .bg4 {
+	background-repeat:no-repeat;
+}
+.bg1 {
+	background-image:url(../images/1.jpg);
+}
+.bg2 {
+	background-image:url(../images/2.jpg);
+}
+.bg3 {
+	background-image:url(../images/3.jpg);
+}
+.bg4 {
+	background-image:url(../images/4.jpg);
+}
+.bg5 {
+	background-image:url(../images/5.jpg);
+}

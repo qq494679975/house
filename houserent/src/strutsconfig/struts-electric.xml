@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="electric" extends="default">
+		<result-types>
+			<result-type name="chart"
+				class="org.apache.struts2.dispatcher.ChartResult"></result-type>
+		</result-types>
+		<action name="electriccrud" class="com.softxm.hs.action.ElecAction">
+			<result name="electricmoneyList">/main/electmoney/elecmoneyList.jsp</result>
+			<result name="showElectric">/main/electmoney/showElectrice.jsp</result>
+			<result name="toUpdatePage">/main/electmoney/addElectrice.jsp</result>
+			<result name="toUpdatePage1">/main/electmoney/updateElectrice.jsp</result>
+			<result name="personElecList">/main/electmoney/personelecmoneyList.jsp</result>
+			<result type="chart" name="chart">
+				<param name="width">900</param>
+				<param name="height">550</param>
+			</result>
+		</action>
+	</package>
+</struts>    

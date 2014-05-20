@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="houserent"
+  id="myeclipse.1383094119597"
+  context-root="/houserent"
+  j2ee-spec="5.0"
+  archive="houserent.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

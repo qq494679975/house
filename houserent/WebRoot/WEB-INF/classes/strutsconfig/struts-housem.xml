@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="house" extends="default">
+		<action name="housecrud" class="com.softxm.hs.action.HouseAction">
+			<result name="houseMlist">/main/housemoney/houseMoneyList.jsp</result>
+			<result name="toaddpage">/main/housemoney/addHouseMoney.jsp</result>
+			<result name="toUpdatePage">/main/housemoney/updateHouseMoney.jsp</result>
+			<result name="showHouseM">/main/housemoney/showHouseMoney.jsp</result>
+			<result name="getPersonHouse">/main/housemoney/personHouseMoneyList.jsp</result>
+		</action>
+	</package>
+</struts>    

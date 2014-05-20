@@ -1,0 +1,70 @@
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd 
+    http://www.springframework.org/schema/jee 
+    http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+    ">
+
+	<jee:jndi-lookup jndi-name="java:comp/env/jdbc/oracle"
+		id="dataSource"></jee:jndi-lookup>
+	<!-- 配置JDbcTemplate -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.Oracle9Dialect
+				</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				
+				<!-- 开启二级缓存-->
+				<prop key="hibernate.cache.use_second_level_cache">true</prop>
+				 <!-- 设置二级缓存插件EHCache的Provider类-->  
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+				 <!-- 启动"查询缓存" -->  
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+				<prop key="hibernate.generate_statistics">true</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>
+					com/softxm/hs/model/Telectricmoney.hbm.xml
+				</value>
+				<value>com/softxm/hs/model/Tuserinfo.hbm.xml</value>
+				<value>com/softxm/hs/model/Tnoticeattach.hbm.xml</value>
+				<value>com/softxm/hs/model/Twatermoney.hbm.xml</value>
+
+				<value>com/softxm/hs/model/Tdictionary.hbm.xml</value>
+				<value>com/softxm/hs/model/Tuserfamily.hbm.xml</value>
+				<value>com/softxm/hs/model/Tsenduser.hbm.xml</value>
+				<value>com/softxm/hs/model/Ttip.hbm.xml</value>
+				<value>com/softxm/hs/model/Tnotice.hbm.xml</value>
+				<value>com/softxm/hs/model/Thousemoney.hbm.xml</value>
+
+				<value>com/softxm/hs/model/Trole.hbm.xml</value>
+				<value>com/softxm/hs/model/Temailattach.hbm.xml</value>
+				<value>com/softxm/hs/model/Tcontract.hbm.xml</value>
+				<value>com/softxm/hs/model/Tuseremail.hbm.xml</value>
+				<value>com/softxm/hs/model/Temail.hbm.xml</value>
+				<value>com/softxm/hs/model/Tmenu.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+</beans>

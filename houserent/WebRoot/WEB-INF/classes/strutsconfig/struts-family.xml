@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="family" extends="default">
+		<action name="familycrud" class="com.softxm.hs.action.FamilyAction">
+			<result name="familtlist">/main/familyjsp/familtlist.jsp</result>
+			<result name="toAddPage">/main/familyjsp/addfamily.jsp</result>
+			<result name="toUpdatePage">/main/familyjsp/updatefamily.jsp</result>
+			<result name="allFamilyList">/main/familyjsp/allfamilyList.jsp</result>
+			<result name="toAllFamilyPage">/main/familyjsp/showOnefamiltlist.jsp</result>
+			<result name="toUpdatePageAllFamily">/main/familyjsp/updateALLFamily.jsp</result>
+		</action>
+	</package>
+</struts>    

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="menu" extends="default">
+		<action name="menucrud" class="com.softxm.hs.action.MenuAction">
+			<result name="menus">/main/main.jsp</result>
+			<result name="showMenuPage">/main/menujsp/menulist.jsp</result>
+			<result name="toAddPage">/main/menujsp/addmenu.jsp</result>
+			<result name="toUpdatePage">/main/menujsp/updatemenu.jsp</result>
+			<result name ="roleisonly" type="json">
+				<param name="root">flag</param>
+			</result>
+		</action>
+	</package>
+</struts>    

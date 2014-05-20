@@ -1,0 +1,1 @@
+sqlplus "/as sysdba" @init.sql jn130233 jn130233

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="fetch" default="aaa" basedir=".">
+    <property name="lib.dir" value="./WebRoot/WEB-INF/lib"/>
+    <property name="classes.dir" value="./WebRoot/WEB-INF/classes"/>
+	
+	<path id="lib.class.path">
+	       <fileset dir="${lib.dir}">
+	           <include name="**/*.jar"/>
+	        </fileset>
+	 </path>
+
+	<target name="aaa">
+		<taskdef name="instrument" classname="org.hibernate.tool.instrument.javassist.InstrumentTask">
+		    <classpath path="${classes.dir}"/>
+		    <classpath refid="lib.class.path"/>
+		</taskdef>
+		<instrument verbose="true">
+			<fileset dir="${classes.dir}/com/softxm/hs/model">
+				<include name="Tuserinfo.class"></include>
+			</fileset>
+		</instrument>
+	</target>
+</project>

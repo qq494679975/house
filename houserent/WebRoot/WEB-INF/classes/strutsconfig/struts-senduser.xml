@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="senduser" extends="json-default">
+		<action name="sendusercrud" class="com.softxm.hs.action.SendUserAction">
+			<result name="addSendUser" type="json">
+				<param name="includeProperties">result</param>
+			</result>
+			<result name="sendUserList">/main/sendUserjsp/sendUserList.jsp</result>
+			<result name="center">/common/message.jsp</result>
+			<result name="sendUserOrder">/main/sendUserjsp/seeSenduser.jsp</result>
+			<result name="login" type="json">
+				<param name="includeProperties">message</param>
+			</result>
+		</action>
+	</package>
+</struts>    

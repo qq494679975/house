@@ -1,0 +1,48 @@
+2013-9-14 14:31:35 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common
+2013-9-14 14:31:37 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-9-14 14:31:37 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2625 ms
+2013-9-14 14:31:37 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-9-14 14:31:37 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-9-14 14:31:37 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-9-14 14:31:38 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-9-14 14:31:38 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory docs
+2013-9-14 14:31:38 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory examples
+2013-9-14 14:31:38 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory MyProject
+2013-9-14 14:31:40 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory MyWeb
+2013-9-14 14:31:40 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory ROOT
+2013-9-14 14:31:40 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory test2
+2013-9-14 14:31:41 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory Tets08
+2013-9-14 14:31:41 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-9-14 14:31:41 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8009
+2013-9-14 14:31:41 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/156  config=null
+2013-9-14 14:31:41 org.apache.catalina.startup.Catalina start
+信息: Server startup in 3704 ms
+2013-9-14 14:31:50 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+2013-9-14 14:31:51 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2013-9-14 14:31:51 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 60000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b614fy8x7jdkewdldt3r|510e39, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b614fy8x7jdkewdldt3r|510e39, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:oracle:thin:@127.0.0.1:1521:orcl, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2013-9-14 14:31:53 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 60000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1b614fy8x7jdkewdldt3r|510e39, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> oracle.jdbc.driver.OracleDriver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b614fy8x7jdkewdldt3r|510e39, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, jdbcUrl -> jdbc:oracle:thin:@127.0.0.1:1521:orcl, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2013-9-14 14:32:09 org.apache.catalina.startup.HostConfig checkResources
+信息: Undeploying context [/Tets08]
+2013-9-14 14:32:13 org.apache.catalina.startup.HostConfig checkResources
+信息: Undeploying context [/test2]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="watermoney" extends="default">
+		<result-types>
+			<result-type name="chart"
+				class="org.apache.struts2.dispatcher.ChartResult"></result-type>
+		</result-types>
+		<action name="watercrud" class="com.softxm.hs.action.WaterAction">
+			<result name="watermoneyList">/main/watermoneyjsp/watermoneyList.jsp</result>
+			<result name="toaddpage">/main/watermoneyjsp/addWaterMoney.jsp</result>
+			<result name="showWater">/main/watermoneyjsp/showWaterMoney.jsp
+			</result>
+			<result name="toUpdatePage">/main/watermoneyjsp/updateWaterMoney.jsp</result>
+			<result name="getPersonWater">/main/watermoneyjsp/personWaterMoneyList.jsp
+			</result>
+			<result type="chart" name="chart">
+				<param name="width">900</param>
+				<param name="height">550</param>
+			</result>
+		</action>
+	</package>
+</struts>    

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.softxm.hs.model.Tcontract" table="TCONTRACT"
+		schema="HOUSE">
+		<id name="cid" type="java.lang.Long">
+			<column name="CID" precision="12" scale="0" />
+			<generator class="sequence">
+				<param name="sequence">SEQ_TCONTRACT</param>
+			</generator>
+		</id>
+		<property name="contractyear" type="java.lang.String">
+			<column name="CONTRACTYEAR" length="3" />
+		</property>
+		<property name="cmessage" type="java.lang.String">
+			<column name="CMESSAGE" />
+		</property>
+		<property name="cbegintime" type="java.util.Date">
+			<column name="CBEGINTIME" length="7" />
+		</property>
+		<property name="cboss" type="java.lang.String">
+			<column name="CBOSS" length="10" />
+		</property>
+		<property name="cuser" type="java.lang.String">
+			<column name="CUSER" length="10" />
+		</property>
+		<!--unique:唯一性约束，many只能有1个，也就是1对1 -->
+		<!-- column:外键字段名 -->
+		<many-to-one name="tuserinfo" unique="true" column="UIID"
+			class="com.softxm.hs.model.Tuserinfo" cascade="none"></many-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,34 @@
+2013-8-29 12:55:17 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_10\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.6.0_10;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;E:\app\DA\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\platform-tools;D:\android\adt-bundle-windows-x86-20130219\adt-bundle-windows-x86-20130219\sdk\tools;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\安装\Rational Rose\common
+2013-8-29 12:55:19 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-80
+2013-8-29 12:55:19 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 3135 ms
+2013-8-29 12:55:19 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2013-8-29 12:55:19 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.37
+2013-8-29 12:55:19 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor host-manager.xml
+2013-8-29 12:55:20 org.apache.catalina.startup.HostConfig deployDescriptor
+信息: Deploying configuration descriptor manager.xml
+2013-8-29 12:55:20 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory docs
+2013-8-29 12:55:20 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory examples
+2013-8-29 12:55:20 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory MyProject
+2013-8-29 12:55:21 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory MyWeb
+2013-8-29 12:55:21 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory ROOT
+2013-8-29 12:55:21 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory Tets08
+2013-8-29 12:55:21 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-80
+2013-8-29 12:55:22 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8009
+2013-8-29 12:55:22 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=1/64  config=null
+2013-8-29 12:55:22 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2840 ms
